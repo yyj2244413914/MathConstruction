@@ -1,0 +1,60 @@
+\documentclass{ctexart}
+\usepackage{enumitem}
+\usepackage{amssymb} % 引入 amssymb 宏包
+\usepackage{amsmath}
+\usepackage{graphicx} % 用于缩放表格
+\usepackage{geometry} % 用于调整页面边距
+\usepackage{threeparttable} % 用于表格注释
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage{minted}  % 引入 minted
+\usepackage{xcolor}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usetikzlibrary{arrows.meta}
+\usepackage{minted}  % 引入minted宏包
+\usepackage{xcolor}  % 颜色支持
+
+% 自定义代码样式（可选）
+\definecolor{bg}{RGB}{245,245,245}  % 浅灰色背景
+\setminted{
+    bgcolor=bg,
+    fontsize=\footnotesize,
+    linenos,               % 显示行号
+    breaklines=true,       % 自动换行
+    breakanywhere=true,    % 任意位置换行
+    tabsize=4,             % Tab缩进为4个空格
+    python3=true           % 指定Python3语法
+}
+\title{\textbf{数模论文模板}}
+\begin{document}
+	\maketitle
+\begin{center}
+	\large\bfseries 摘要
+\end{center}
+
+
+
+
+
+\textbf{关键词}
+
+\tableofcontents
+
+\section{问题重述}
+\subsection{背景}
+\subsection{题目要求}
+\section{问题分析}
+\section{模型假设}
+\section{符号约定}
+\section{模型建立及求解}
+\section{模型稳定性分析}
+\section{模型评价}
+\subsection{模型优点}
+\subsection{模型缺点}
+\section{结论}
+\section{参考文献}
+\section{附录}
+\end{document}
